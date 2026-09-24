@@ -163,3 +163,50 @@ footer {
         font-size: 22px;
     }
 }
+/* Colourful Portfolio Theme */
+
+body {
+    background: linear-gradient(135deg, #eef2ff, #f5f3ff, #ecfeff);
+}
+
+header, nav {
+    background: linear-gradient(90deg, #4f46e5, #7c3aed);
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: #fde68a;
+}
+
+section {
+    border-radius: 18px;
+}
+
+h1, h2, h3 {
+    color: #4f46e5;
+}
+
+button, .btn {
+    background: linear-gradient(90deg, #4f46e5, #9333ea);
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+button:hover, .btn:hover {
+    transform: translateY(-2px);
+}
+
+.card, .project-card {
+    border-radius: 18px;
+    border: 1px solid #ddd6fe;
+    box-shadow: 0 8px 20px rgba(79, 70, 229, 0.12);
+}
+
+footer {
+    background: #312e81;
+    color: white;
+}
